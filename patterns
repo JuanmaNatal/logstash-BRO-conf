@@ -1,0 +1,2 @@
+# modbus.log
+BRO_MODBUS %{NUMBER:ts}\t%{NOTSPACE:uid}\t%{IP:orig_h}\t%{INT:orig_p}\t%{IP:resp_h}\t%{INT:resp_p}\t%{GREEDYDATA:func}\t%{GREEDYDATA:exception}
